@@ -17,6 +17,7 @@ public class DestroyPulpit : MonoBehaviour
             enabled=false;
 
             gameObject.AddComponent<Rigidbody>();
+            gameObject.tag="dead";
             Destroy(gameObject,2);
             //timer+=Time.deltaTime;
             //if(timer>dtime){
